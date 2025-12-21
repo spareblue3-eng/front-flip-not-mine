@@ -91,12 +91,12 @@ imageButton.Activated:Connect(FortniteFlips)
 local UIS = game:GetService("UserInputService")
 
 UIS.InputBegan:Connect(function(input)
-    if input.KeyCode == Enum.KeyCode.G then -- the keycode is G
+    if input.KeyCode == Enum.KeyCode.R then -- the keycode is R
       FortniteFlips()
     end
 end)
 
-print("G for FLIP")
+print("R for FLIP")
 
 while task.wait(0.0000000001) do
 sausageHolder.Size = sSize
