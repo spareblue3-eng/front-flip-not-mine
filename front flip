@@ -91,7 +91,7 @@ imageButton.Activated:Connect(FortniteFlips)
 local UIS = game:GetService("UserInputService")
 
 UIS.InputBegan:Connect(function(input)
-    if input.KeyCode == Enum.KeyCode.R`then -- the keycode is `
+    if input.KeyCode == Enum.KeyCode.`then -- the keycode is `
       FortniteFlips()
     end
 end)
